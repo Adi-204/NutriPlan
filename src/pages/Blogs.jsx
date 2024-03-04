@@ -30,6 +30,7 @@ export const Blogs = () => {
       try {
         setLoading(true);
         const response = await axios.get(`${import.meta.env.VITE_URL}/blogs/all`);
+        console.log(response.data);
         setBlog(response.data);
       } catch (error) {
         console.log(error);
