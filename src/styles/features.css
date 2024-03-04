@@ -1,0 +1,128 @@
+.features_outer{
+    background-color: #f1f1ea;
+    padding-bottom: 10vh;
+}
+.feature_Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:10vh;
+    align-items: center;
+    background-color: #f1f1ea;
+}
+
+.feature_img{
+    width: auto;
+    height: 60vh;
+}
+
+.feature-main {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.feature-main h1 {
+    margin-top: 8px;
+    text-align: center;
+    color: #333;
+}
+
+.feature-main p {
+    text-align: center;
+    color: #666;
+}
+
+
+.feature-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20vw;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.feature-link a {
+    text-decoration: none;
+    color: #666;
+}
+
+.feature-clicked {
+    max-width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap:2vh;
+    align-items: center;
+    padding: 10px;
+    background-color: #D2E3C8;
+    border-radius: 12px;
+    padding: 1.8vw;
+}
+
+.feature-clicked h1 {
+    color: #333;
+}
+
+.feature-clicked p {
+    color: #666;
+    width: 35vw;
+}
+
+.feature-clicked img{
+    width: 25vw;
+    height: auto;
+}
+
+.feature-clicked a {
+    font-size: 1rem;
+    width: 12rem;
+    display: block;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: #21695c;
+    color: #fff; 
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.feature-clicked a:hover {
+    background-color: #3a9e86; 
+    box-shadow: none;
+      
+}
+ 
+.feature-border{
+    font-size: 1rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0.5vw;
+    width: 20vw;
+    background-color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:680px) {
+    .feature-border{
+        width: 70vw;
+    }
+    .feature-clicked{
+        max-width: none;
+        width: 80vw;
+    }
+    .feature-clicked img{
+        width: 60vw;
+    }
+    .feature-clicked p{
+        width: 60vw;
+    }
+    .feature-border{
+        margin: 1.3vw;
+    }
+    .feature-clicked h1{
+        font-size: 1.5rem;
+    }
+}
